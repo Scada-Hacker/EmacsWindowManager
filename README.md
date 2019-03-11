@@ -20,9 +20,8 @@ As you asked so nicely I shall explain
 1. Install Emacs (obviously !)
 
 2. Create a really usefull init.el (this is the configuration file that Emacs loads when it starts). I based mine on prelude https://github.com/bbatsov/prelude/blob/master/init.el
-You can also find a copy in this repository (because I'm nice like that)
 
-Copy this to the .emacs.d folder
+You can also find a copy in this repository (because I'm nice like that). Copy this to the .emacs.d folder
 
 3. Set up EXWM
 https://github.com/ch11ng/exwm
