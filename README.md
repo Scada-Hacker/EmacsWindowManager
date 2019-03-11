@@ -37,7 +37,7 @@ sudo systemctl start bumblebeed
 
 5. Create an .xinitrc file 
 
-This will launch Emacs when you type startx. I've created an example of what i use in this repository
+This will launch Emacs when you type startx. I've created an example of what I use in this repository
 
 6. startx
 
