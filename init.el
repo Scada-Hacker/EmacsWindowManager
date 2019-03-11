@@ -39,9 +39,8 @@
 ;; You may delete these explanatory comments.
 ;(package-initialize)
 ;; test
-(add-to-list 'load-path "/home/patrick/emacs-stuff/xelb/")
-(add-to-list 'load-path "/home/patrick/emacs-stuff/exwm/")
-(add-to-list 'load-path "/home/patrick/emacs-stuff")
+(add-to-list 'load-path "/path/to/xelb/")
+(add-to-list 'load-path "/path/to/exwm/")
 (defvar current-user
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
@@ -200,11 +199,6 @@ This is DEPRECATED, use %s instead." prelude-modules-file))
 ;; You can hide the minibuffer and echo area when they're not used, by
 ;; uncommenting the following line.
 ;(setq exwm-workspace-minibuffer-position 'bottom)
-;; processing stuff here
-(setq processing-location "/home/patrick/processing-3.5.3/processing-java")
-(setq processing-application-dir "/home/patrick/Applications")
-(setq processing-sketchbook-dir "/home/patrick/sketchbook")
-
 ;; Do not forget to enable EXWM. It will start by itself when things are
 ;; ready.  You can put it _anywhere_ in your configuration.
 
