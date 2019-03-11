@@ -24,6 +24,7 @@ As you asked so nicely I shall explain
 You can also find a copy in this repository (because I'm nice like that). Copy this to the .emacs.d folder
 
 3. Set up EXWM
+
 https://github.com/ch11ng/exwm
 
 4. Set login to multiuser
