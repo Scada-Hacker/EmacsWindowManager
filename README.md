@@ -3,7 +3,7 @@ Due to popular demand I'm uploading the Emacs Windows Manager procedure
 
 This will document the procedure for using Emacs as a windows manager. 
 
-** Why ? Why would you do this ? **
+Why ? Why would you do this ?
 
 As with most things - because I can. And also because Emacs is incredibly usefull. I became aware I didnt need to leave Emacs for most things i do, and anything else could simply be launched from a terminal. So with that in mind I did some research and found others have allready done similiar with varying degrees of success.
 
