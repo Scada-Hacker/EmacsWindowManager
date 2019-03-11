@@ -27,7 +27,7 @@ Copy this to the .emacs.d folder
 3. Set up EXWM
 https://github.com/ch11ng/exwm
 
-4.Set login to multiuser
+4. Set login to multiuser
 
 This will take you to tty1 at startup - the reasons for this will become apparent in the next few steps
 systemctl set-default multi-user.target
@@ -35,11 +35,11 @@ systemctl set-default multi-user.target
 Please note - if you use bumblebee for laptops with  dual gpu, you will need to manually start the service 
 sudo systemctl start bumblebeed
 
-5.Create an .xinitrc file 
+5. Create an .xinitrc file 
 
 This will launch Emacs when you type startx. I've created an example of what i use in this repository
 
-6. Startx
+6. startx
 
 And thats it !
 
