@@ -13,7 +13,7 @@ I also found a project which turns Emacs into a tiling window manager along the 
 
 https://github.com/ch11ng/exwm
 
-#Ok enough waffle. How did you do it ?
+Ok enough waffle. How did you do it ?
 
 As you asked so nicely I shall explain
 
