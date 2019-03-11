@@ -1,7 +1,7 @@
 # EmacsWindowManager
 Due to popular demand I'm uploading the Emacs Windows Manager procedure
 
-This will document the procedure for using Emacs as a windows manager. 
+This documents the procedure for using Emacs as a windows manager. 
 
 Why ? Why would you do this ?
 
@@ -23,7 +23,7 @@ As you asked so nicely I shall explain
 
 You can also find a copy in this repository (because I'm nice like that). Copy this to the .emacs.d folder
 
-3. Set up EXWM
+3. Set up and install EXWM
 
 https://github.com/ch11ng/exwm
 
