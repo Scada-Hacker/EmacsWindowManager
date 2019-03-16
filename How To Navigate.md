@@ -2,6 +2,7 @@
 
 
 If you have never used Emacs before I highly recommend reading a begginers guide.
+
 http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/
 
 http://ergoemacs.org/emacs/emacs.html
