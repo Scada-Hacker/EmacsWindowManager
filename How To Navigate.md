@@ -11,4 +11,4 @@ https://www.gnu.org/software/emacs/tour/
 
 The following is a list of commands and add-ons for navigating and controlling Emacs as a window manager.
 
-1. I recommend installing multiterm.
+1. Install multiterm. This will allow you to spawn multiple terminals
