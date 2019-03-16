@@ -1,4 +1,4 @@
-# Emacs Window Manager
+### Emacs Window Manager
 
 
 If you have never used Emacs before I highly recommend reading a begginers guide. Below are a few rather usefull tutorials.
