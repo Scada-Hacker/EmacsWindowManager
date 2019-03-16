@@ -8,6 +8,6 @@ http://ergoemacs.org/emacs/emacs.html
 
 https://www.gnu.org/software/emacs/tour/
 
-Once you have a working knowledge of Emacs, the following is a list of commands and add-ons for navigating and controlling Emacs as a window manager.
+The following is a list of commands and add-ons for navigating and controlling Emacs as a window manager.
 
 1. I recommend installing multiterm.
