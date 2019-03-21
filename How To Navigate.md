@@ -13,9 +13,9 @@ The following is a list of commands and add-ons for navigating and controlling E
 
 Install multiterm. This will allow you to spawn multiple terminals
 
-2. M-x list-packages
-3. Locate / highlight multi-term and press enter.
-4. Highlight install and press enter. 
-5. Once installed, press M-x and type multi-term
+1. M-x list-packages
+2. Locate / highlight multi-term and press enter.
+3. Highlight install and press enter. 
+4. Once installed, press M-x and type multi-term
 
 
