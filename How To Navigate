@@ -1,6 +1,6 @@
 # Emacs as a Window Manager
-
-If you have never used Emacs before I highly recommend reading a begginers guide. Below are a few rather usefull tutorials.
+# test
+If you hate never used Emacs before I highly recommend reading a begginers guide. Below are a few rather usefull tutorials.
 
 http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/
 
@@ -10,4 +10,8 @@ https://www.gnu.org/software/emacs/tour/
 
 Once you have a working knowledge of how Emacs behaves, the following is a list of commands for navigating and controlling Emacs as a window manager.
 
-1. I recommend installing multiterm.
+1. Installing multiterm.
+
+M-x list-packages
+
+A buffer called Packages should now appear - from the list find mult-term, highlight and press enter. Click or highlight install and press enter.
