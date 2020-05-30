@@ -12,8 +12,6 @@ https://www.spacemacs.org/
 
 The link below will give instructions how to install EXWM. I highly recommend the "Install from source" option in the user manual
 
-# Install / User guide :
-
 https://github.com/ch11ng/exwm/wiki
 
 EXWM : https://github.com/ch11ng/exwm
