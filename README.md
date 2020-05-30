@@ -1,33 +1,53 @@
-# Emacs Window Manager
+# Spacemacs + EXWM = Emacs Windows Manager
+
 Due to popular demand I'm uploading the Emacs Windows Manager procedure
 
 This documents the procedure for using Emacs as a windows manager. 
 
 Why ? Why would you do this ?
 
-As with most things - because I can. And because Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most things I do, and anything else could be launched from a terminal. So with that in mind I did some research and found others have done similiar with varying degrees of success.
+Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most things I do, and anything else could be launched from a terminal. So with that in mind I did some research and found others have done similiar with varying degrees of success
 
-http://www.howardism.org/Technical/Emacs/new-window-manager.html
+# This is my take on the procedure.
 
-I found a project which turns Emacs into a tiling window manager along the lines of Ratpoison / I3
+1. I will presume you have Emacs installed. If not do so. I recommend version 26 +
+
+2. (Optional) I love spacemacs - its the best of both Emacs and VI. Backup your .emacs.d folder and remove / backup .emacs if it exists. Followw the instructions in the link below to install.
+
+https://www.spacemacs.org/#
+
+3. Install EXWM.The link below will give instructions how to install EXWM. I highly recommend the "Install from source" optionin the user manual
+
+Install / User guide : https://github.com/ch11ng/exwm/wiki
+
+EXWM : https://github.com/ch11ng/exwm
+
+XELB : https://github.com/ch11ng/xelb
+
+4. Set up and install EXWM
 
 https://github.com/ch11ng/exwm
 
-Ok enough waffle. How did you do it ?
+5. Optional Configurations
 
-As you asked so nicely I shall explain
+The following two functions I have added to my init.el file. It forces Emacs to open in full screen, and also uses Xrandr to activate my external display.
 
-1. Install Emacs (obviously !)
+(require 'exwm-randr)
+  (setq exwm-randr-workspace-output-plist '(0 "HDMI1"))
+  (add-hook 'exwm-randr-screen-change-hook
+            (lambda ()
+              (start-process-shell-command
+               "xrandr" nil "xrandr --output HDMI1  --mode 1920x1080 --right-of eDP1")))
+  (exwm-randr-enable)
 
-2. Create an init.el (this is the configuration file that Emacs loads when it starts). I based mine on prelude https://github.com/bbatsov/prelude/blob/master/init.el
 
-You can also find a copy in this repository (because I'm nice like that). Copy this to the .emacs.d folder
+(set-frame-parameter nil 'fullscreen 'fullboth)
 
-3. Set up and install EXWM
 
-https://github.com/ch11ng/exwm
 
-4. Set login to multiuser
+5. Set as a window manager
+
+
 
 This will take you to tty1 at startup - the reasons for this will become apparent in the next few steps
 
