@@ -1,9 +1,5 @@
 # Spacemacs + EXWM = Emacs Windows Manager
 
-Due to popular demand I'm uploading the Emacs Windows Manager procedure
-
-This documents the procedure for using Emacs as a windows manager. 
-
 # How To Install
 
 I will presume you have Emacs installed. If not do so. I recommend version 26 +
