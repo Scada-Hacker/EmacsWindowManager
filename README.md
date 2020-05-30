@@ -47,6 +47,27 @@ The following two functions I have added to my init.el file. It forces Emacs to 
 
 5. Set as a window manager
 
+# For lightdm:
+
+cd /usr/share/xsessions
+
+create a file called exwm.desktop
+
+add the following then save.
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=EXWM
+Comment=Dynamic window manager
+Exec=emacs
+Icon=dwm
+Type=XSession
+
+# For .xinit.rc
+
+add the following then save 
+
+exec emacs
 
 
 This will take you to tty1 at startup - the reasons for this will become apparent in the next few steps
