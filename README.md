@@ -8,7 +8,7 @@ Why ? Why would you do this ?
 
 Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most things I do, and anything else could be launched from a terminal. So with that in mind I did some research and found others have done similiar with varying degrees of success.
 
-This is my take on the procedure.
+# How To Install
 
 I will presume you have Emacs installed. If not do so. I recommend version 26 +
 
@@ -16,17 +16,17 @@ I will presume you have Emacs installed. If not do so. I recommend version 26 +
 
 https://www.spacemacs.org/
 
-Install EXWM.
+# Install EXWM.
 
 The link below will give instructions how to install EXWM. I highly recommend the "Install from source" option in the user manual
 
-Install / User guide : https://github.com/ch11ng/exwm/wiki
+# Install / User guide : https://github.com/ch11ng/exwm/wiki
 
 EXWM : https://github.com/ch11ng/exwm
 
 XELB : https://github.com/ch11ng/xelb
 
-Optional Configurations. 
+# Optional Configurations. 
 
 The following two functions I have added to my init.el file. It forces Emacs to open in full screen, and also uses Xrandr to activate my external display.
 
@@ -43,7 +43,7 @@ The following two functions I have added to my init.el file. It forces Emacs to 
 
 
 
-Set as a window manager
+# Set as a window manager
 
 # For lightdm:
 
@@ -68,7 +68,7 @@ add the following then save
 exec emacs
 
 
-Quirks / odd behavuiour I've noticed  
+# Quirks / odd behavuiour I've noticed  
 
 I have a laptop with a dual intel/nvidia GPU installed. Bumblebee had to be manually started
 
