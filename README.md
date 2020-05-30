@@ -8,7 +8,7 @@ Why ? Why would you do this ?
 
 Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most things I do, and anything else could be launched from a terminal. So with that in mind I did some research and found others have done similiar with varying degrees of success.
 
-# This is my take on the procedure.
+This is my take on the procedure.
 
 1. I will presume you have Emacs installed. If not do so. I recommend version 26 +
 
@@ -24,9 +24,7 @@ EXWM : https://github.com/ch11ng/exwm
 
 XELB : https://github.com/ch11ng/xelb
 
-4. Optional Configurations
-
-The following two functions I have added to my init.el file. It forces Emacs to open in full screen, and also uses Xrandr to activate my external display.
+4. Optional Configurations. The following two functions I have added to my init.el file. It forces Emacs to open in full screen, and also uses Xrandr to activate my external display.
 
 (require 'exwm-randr)
   (setq exwm-randr-workspace-output-plist '(0 "HDMI1"))
