@@ -6,7 +6,7 @@ This documents the procedure for using Emacs as a windows manager.
 
 Why ? Why would you do this ?
 
-Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most things I do, and anything else could be launched from a terminal. So with that in mind I did some research and found others have done similiar with varying degrees of success
+Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most things I do, and anything else could be launched from a terminal. So with that in mind I did some research and found others have done similiar with varying degrees of success.
 
 # This is my take on the procedure.
 
@@ -16,7 +16,7 @@ Emacs is incredibly usefull. I became aware I dont need to leave Emacs for most 
 
 https://www.spacemacs.org/#
 
-3. Install EXWM.The link below will give instructions how to install EXWM. I highly recommend the "Install from source" optionin the user manual
+3. Install EXWM.The link below will give instructions how to install EXWM. I highly recommend the "Install from source" option in the user manual
 
 Install / User guide : https://github.com/ch11ng/exwm/wiki
 
@@ -24,11 +24,7 @@ EXWM : https://github.com/ch11ng/exwm
 
 XELB : https://github.com/ch11ng/xelb
 
-4. Set up and install EXWM
-
-https://github.com/ch11ng/exwm
-
-5. Optional Configurations
+4. Optional Configurations
 
 The following two functions I have added to my init.el file. It forces Emacs to open in full screen, and also uses Xrandr to activate my external display.
 
@@ -78,13 +74,19 @@ Please note - if you use bumblebee for laptops with  dual gpu, you will need to 
 
 sudo systemctl start bumblebeed
 
-5. Create an .xinitrc file 
+5. Quirks / odd behavuiour Ive noticed  
 
-This will launch Emacs when you type startx. I've created an example of what I use in this repository
+I have a laptop with a dual intel/nvidia GPU installed. Bumblebee had to be manually started
 
-6. startx
+sudo systemctl start bumblebeed
 
-And thats it !
+Wireless access didnt start initially.
+
+running nmtui from a terminal fixed this.
+
+
+
+
 
 
 
