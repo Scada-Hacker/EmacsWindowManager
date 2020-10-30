@@ -53,14 +53,14 @@ Exec=emacs
 Icon=dwm
 Type=XSession
 
-# For .xinit.rc
+# For .xinit.rc: 
 
 add the following then save 
 
 exec emacs
 
 
-# Quirks / odd behavuiour I've noticed  
+# Quirks / odd behaviour I've noticed  
 
 I have a laptop with a dual intel/nvidia GPU installed. Bumblebee had to be manually started
 
